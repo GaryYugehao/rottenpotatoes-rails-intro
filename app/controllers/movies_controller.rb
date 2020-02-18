@@ -22,6 +22,7 @@ class MoviesController < ApplicationController
     end
 
     @movies = Movie.order(ordering)
+    
   end
 
   def new
